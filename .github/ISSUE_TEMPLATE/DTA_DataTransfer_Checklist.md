@@ -24,7 +24,7 @@ projects: "cbmed/13"
     
      `<link/path to QC report>`
 
-## 2. DTA transfer
+## 2. DTA Preparation
 
 - [ ] 2.1 Scripts for Data transformation according to DTS finished
     - [ ] 2.1.1 Primary Script provided by:
@@ -33,7 +33,23 @@ projects: "cbmed/13"
        - Operator: `CBmed employee` (update wenn putting )
     - [ ] 2.1.3 Both outputs were compared and are identical
     - [ ] 2.1.4 Post comparison checks/modification completed (No trailing new line etc.)
-- [ ] 2.2 Upload to BI EDT Server completed and confirmed by BI:
+
+---
+
+## 3. **TQM Gate — STOP BEFORE UPLOAD**
+
+**The operator must stop here and wait for approval from the TQM team.**  
+Approval must be provided **as a comment to this issue**.
+
+- [ ] 3.1 TQM approval received in comments  
+      *(Operator checks this box only after approval comment is present.)*
+
+:warning: **Do not proceed to upload before this approval is granted.**
+
+---
+
+## 4. DTA Transfer
+- [ ] 3.1 Upload to BI EDT Server completed and confirmed by BI:
 
     - Employee: `CBmed employee`
     - Date: `DD. MM. YYYY`
@@ -41,6 +57,8 @@ projects: "cbmed/13"
     - Git-Commit: `__________________________________` 
     - Docker Image id: `__________________________________`
 
-## 3. Comments
+---
+
+## 5. Comments
 
 `comments, e.g. 0: Upload failed first time <reason>, specified handling for repeated measures: Copy mail`

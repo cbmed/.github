@@ -49,7 +49,7 @@ Approval must be provided **as a comment to this issue**.
 ---
 
 ## 4. DTA Transfer
-- [ ] 3.1 Upload to BI EDT Server completed and confirmed by BI:
+- [ ] 4.1 Upload to BI EDT Server completed and confirmed by BI:
 
     - Employee: `CBmed employee`
     - Date: `DD. MM. YYYY`

@@ -3,6 +3,7 @@ name: TSO500 raw data transfer
 about: This is the checklist to be followed for all BI TSO500 projects with data from Human Genetics
 title: '[xxxx-xxxx] [y.yy] batch[n] TSO500 QC gate (Raw Data Transfer) Checklist'
 labels: BI Data Transfer
+type: RAW DATA UPLOAD
 assignees: 
 projects: "cbmed/13"
 ---

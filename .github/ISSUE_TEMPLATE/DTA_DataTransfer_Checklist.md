@@ -1,7 +1,7 @@
 ---
 name: BI EDT server upload checklist
 about: This is the checklist to be followed for all BI EDT server uploads according to the according DTS
-title: '[xxxx-xxxx] [y.yy] batch[n] QC gate (DTS Data Transfer) Checklist'
+title: '[xxxx-xxxx] [y.yy] batch[n] QC gate 2 (DTS Data Transfer) Checklist'
 labels: BI Data Transfer
 type: DTA UPLOAD
 projects: "cbmed/13"

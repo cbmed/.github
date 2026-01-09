@@ -34,13 +34,16 @@ https://github.com/cbmed/IT_ops_documentation/wiki/Upload-to-AWS-S3-buckets
     `NAS3/Genomics/RNAseq_[liquid/solid]/flowcells/<basename>/<flowcell>.sha256`
 
 ## 2. Quality Checks
+- [ ] 2.1 Checked folder structure according to BI cloud transfer agreement 
+- [ ] 2.2 Created SampleSheet.csv and check with samsheet was successful:
+      `NAS3/Genomics/RNAseq_[liquid/solid]/flowcells/<basename>/SampleSheet.csv`
 
-- [ ] 2.1 Run-QC & Bioinformatics-QC according to AP performed: 
+- [ ] 2.3 Run-QC according to AP performed: 
     
-     `NAS3/Genomics/RNAseq_[liquid/solid]/dragen/<basename>/RNAseq_QC_default_thresholds.<timestamp>.xlsx`
-- [ ] 2.2 CBmed lab team and HG informed of outcome
-- [ ] 2.3 Internal QC investigation `completed/not necessary`
-- [ ] 2.4 BI informed about QC outcome
+     `NAS3/Genomics/RNAseq_[liquid/solid]/flowcells/<basename>/RNAseq_QC_default_thresholds.<timestamp>.xlsx`
+- [ ] 2.4 CBmed lab team and HG informed of outcome
+- [ ] 2.5 Internal QC investigation `completed/not necessary`
+- [ ] 2.6 BI informed about QC outcome
 
 ## 3. **TQM Gate — STOP BEFORE UPLOAD**
 

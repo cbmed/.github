@@ -46,12 +46,13 @@ If you have been assigned this task, please have a look at these wiki entires to
 
 ## 2. Quality Control
 
-- [ ] 2.1 Run-QC & Bioinformatics-QC according to AP performed: 
+- [ ] 2.1 Checked folder structure according to BI cloud transfer agreement 
+- [ ] 2.2 Run-QC & Bioinformatics-QC according to AP performed: 
     
      `NAS3/Genomics/TSO500_[liquid/solid]/dragen/<basename>/TSO500_QC_default_thresholds.<timestamp>.xlsx`
-- [ ] 2.2 CBmed lab team and HG informed of outcome
-- [ ] 2.3 Internal QC investigation `completed/not necessary`
-- [ ] 2.4 BI informed about QC outcome
+- [ ] 2.3 CBmed lab team and HG informed of outcome
+- [ ] 2.4 Internal QC investigation `completed/not necessary`
+- [ ] 2.5 BI informed about QC outcome
 
 ---
 

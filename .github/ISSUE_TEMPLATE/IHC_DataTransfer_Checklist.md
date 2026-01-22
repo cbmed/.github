@@ -11,6 +11,10 @@ projects: ["cbmed/12"]
 If you have been assigned this task, please read:  
 https://github.com/cbmed/IT_ops_documentation/wiki/Upload-to-AWS-S3-buckets
 
+QC checks performed by lab/external?
+Calculate checksums
+use rsync rather than just push -R
+-> get some way to check completeness (checksum´s or logs)
 
 ## 0. Meta data
 
@@ -25,7 +29,6 @@ https://github.com/cbmed/IT_ops_documentation/wiki/Upload-to-AWS-S3-buckets
 
 - **Basefolder on NAS3 (<basefolder>):**  
   `<NAS3>/<path-to-directory>`
-
 
 ---
 
@@ -45,7 +48,6 @@ Approval must be provided **as a comment to this issue**.
 - [ ] **1.2** IHC data uploaded to BI S3 bucket  
       `/<path-to-directory>`
 - [ ] **1.3** BI informed of completed upload  
-      (including QC output in email)
 
 
 ---

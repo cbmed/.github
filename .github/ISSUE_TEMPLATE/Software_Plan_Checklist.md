@@ -1,7 +1,7 @@
 ---
-name: Software Validation
-about: This is the checklist to be followed for Software validation
-title: '[Tool] [version] validation checklist'
+name: Software Validation Plan
+about: This is the checklist to be followed for setting up a software validation plan
+title: '[Tool] validation plan'
 labels: documentation
 type: Task
 assignees: 
@@ -29,9 +29,9 @@ https://github.com/cbmed/IT_ops_documentation/wiki/Upload-to-AWS-S3-buckets
 
 `Link to sharepoint`
 
-- [ ] 1.2 Validation Report can be found at:
+- [ ] 1.2 Defined Functions & Risk levels
+- [ ] 1.3 Defined Unit Tests
+- [ ] 1.4 Defined End2 End Tests
+- [ ] 1.5 Approved by TQM
 
-`Link to sharepoint`
-
-- [ ] 1.3 Identified issues:
 

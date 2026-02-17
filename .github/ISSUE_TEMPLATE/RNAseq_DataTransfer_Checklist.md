@@ -35,7 +35,7 @@ https://github.com/cbmed/IT_ops_documentation/wiki/Upload-to-AWS-S3-buckets
 
 ## 2. Quality Checks
 - [ ] 2.1 Checked folder structure according to BI cloud transfer agreement 
-- [ ] 2.2 Created SampleSheet.csv and check with samsheet was successful:
+- [ ] 2.2 Created SampleSheet.csv and check with samshee2 was successful:
       `NAS3/Genomics/RNAseq_[liquid/solid]/flowcells/<basename>/SampleSheet.csv`
 
 - [ ] 2.3 Run-QC according to AP performed: 

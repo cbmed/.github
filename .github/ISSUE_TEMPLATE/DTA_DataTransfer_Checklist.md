@@ -27,13 +27,14 @@ projects: "cbmed/13"
 
 ## 2. DTA Preparation
 
-- [ ] 2.1 Scripts for Data transformation according to DTS finished
-    - [ ] 2.1.1 Primary Script provided by:
-       - Operator: `CBmed employee` (update wenn putting )
-    - [ ] 2.1.2 Secondary Script provided by:
-       - Operator: `CBmed employee` (update wenn putting )
-    - [ ] 2.1.3 Both outputs were compared and are identical
-    - [ ] 2.1.4 Post comparison checks/modification completed (No trailing new line etc.)
+- [ ] 2.1 DTA preparation pipeline completed successfully in Jenkins
+    - Jenkins build: [`<link to Jenkins build>`](http://10.200.230.173/jenkins/job/<pipeline>/<#build>/)
+    - Build result: `SUCCESS`
+
+- [ ] 2.2 Automated validations completed successfully (see Jenkins build)
+    - Primary vs. secondary output comparison: **no differences**
+    - Post-comparison checks passed (formatting, trailing newline, etc.)
+    - DTS compliance checks passed
 
 ---
 
@@ -55,9 +56,6 @@ Approval must be provided **as a comment to this issue**.
     - Employee: `CBmed employee`
     - Date: `DD. MM. YYYY`
     - Filepath on Sharepoint: `<link/path to uploaded reults file(s)>`
-    - Git-Commit: `__________________________________` 
-    - Docker Image id: `__________________________________`
-
 ---
 
 ## 5. Comments

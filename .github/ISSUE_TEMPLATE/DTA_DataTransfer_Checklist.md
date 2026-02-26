@@ -31,9 +31,9 @@ projects: "cbmed/13"
     - Jenkins build: [`<link to Jenkins build>`](http://10.200.230.173/jenkins/job/<pipeline>/<#build>/)
     - Build result: `SUCCESS`
      
-    - [] 2.1.1 Primary Script provided by:
+    - [ ] 2.1.1 Primary Script provided by:
        - Script provided by: `CBmed employee`
-    - [] 2.1.2 Secondary Script provided by:
+    - [ ] 2.1.2 Secondary Script provided by:
        - Script provided by: `CBmed employee`
 
 - [ ] 2.2 Automated validations completed successfully (see Jenkins build)

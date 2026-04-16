@@ -1,9 +1,7 @@
 ---
-name: BI EDT server upload checklist
-about: This is the checklist to be followed for all BI EDT server uploads according to the according DTS
-title: '[xxxx-xxxx] [y.yy] batch[n] QC gate 2 (DTS Data Transfer) Checklist'
-labels: BI Data Transfer
-type: DTA UPLOAD
+name: BI study setup checklist
+about: This is the checklist to be followed for setting up a new study repo and documentation
+title: '[xxxx-xxxx] [y.yy] Study Setup Checklist'
 projects: "cbmed/13"
 ---
 

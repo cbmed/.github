@@ -27,14 +27,13 @@ projects: "cbmed/13"
 
 ## 2. DTA Preparation
 
-- [ ] 2.1 DTA preparation pipeline completed successfully in Jenkins
+- [ ] 2.1 SDTM preparation pipeline completed successfully in Jenkins
     - Jenkins build: [`<link to Jenkins build>`](http://10.200.230.173/jenkins/job/<pipeline>/<#build>/)
     - Build result: `SUCCESS`
      
-    - [ ] 2.1.1 Primary Script provided by:
-       - Script provided by: `CBmed employee`
-    - [ ] 2.1.2 Secondary Script provided by:
-       - Script provided by: `CBmed employee`
+    If applicable:
+    - [ ] 2.1.1 Primary Script adapted by: `CBmed employee`
+    - [ ] 2.1.2 Secondary Script adapted by: `CBmed employee`
 
 - [ ] 2.2 Automated validations completed successfully (see Jenkins build)
     - Primary vs. secondary output comparison: **no differences**

@@ -13,12 +13,11 @@ projects: "cbmed/13"
 
 - BI project number: `xxxx-xxxx`
 - CBmed project number: `z.zz`
-- Dosumentation to be found at: `Path`
+- Documentation to be found at: `Sharepoint Path`
 
 ## 1. DTS:
 
-
-- [ ] 1.1 DTS finalized
+- [ ] 1.1 DTS checklist completed (TBD)
 - [ ] 1.2 DTS Alignment meeting:
     - [ ] 1.2.1 Meeting Minutes sent out
 - [ ] 1.3 Working Document set up
@@ -27,7 +26,7 @@ projects: "cbmed/13"
 
 ## 2. Github setup:
 
-- [ ] 2.1 Study information has been updted
+- [ ] 2.1 Study information has been updated
 - [ ] 2.2 BI contacts have been updated 
 - [ ] 2.3 Engineers have been assigned:
     - [ ] 2.3.1: Primary: `Employee`
@@ -39,10 +38,15 @@ projects: "cbmed/13"
 - [ ] 3.1 Primary script provided by: `Employee`
 - [ ] 3.2 Secondary script provided by: `Employee`
 
-## 4. Automation:
+## 4. Compliance check:
 
-- [ ] 4.1 Docker:
-    - [ ] 4.1.1: Primary: `Employee`
-    - [ ] 4.1.2: Secondary: `Employee` 
+- [ ] 4.1 Compliance tool config provided by: `Employee`
+- [ ] 4.2 Compliance tool config reviewed by: `Employee`
 
-- [ ] 4.1 Jenkins Pipeline set up by: `Employee`
+## 5. Automation:
+
+- [ ] 5.1 Docker:
+    - [ ] 5.1.1: Primary: `Employee`
+    - [ ] 5.1.2: Secondary: `Employee` 
+
+- [ ] 5.2 Jenkins Pipeline set up by: `Employee`

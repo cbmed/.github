@@ -1,5 +1,5 @@
 # CBmed GitHub Organization
-Repositories and software projects developed at [Cbmed](https://www.cbmed.at/).
+Repositories and software projects developed at [CBmed](https://www.cbmed.at/).
 ## 📚 Overview
 This organization hosts mostly private repositories for:
 
@@ -11,7 +11,7 @@ This organization hosts mostly private repositories for:
 ## 🤝 Join
 If you are interested in collaborating with CBmed or contributing to our work:
 
- - Visit our homepage: https://www.cbmed.at/
+ - Visit our homepage: [CBmed](https://www.cbmed.at/)
  - Reach out via the contact options provided there
 
 ## 📦 Repository Lifecycle

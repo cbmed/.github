@@ -36,7 +36,7 @@ use rsync rather than just push -R
 - **Date of upload start (YYYY-MM-DD):**  
 `2026-01-31`
 
-- **Date of upload find (YYYY-MM-DD):**  
+- **Date of upload finish (YYYY-MM-DD):**  
 `2026-01-31`
 
 ---

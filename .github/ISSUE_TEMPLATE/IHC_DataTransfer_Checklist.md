@@ -22,7 +22,7 @@ use rsync rather than just push -R
   `xxxx-xxxx`
 
 - **CBmed project number:**  
-  `z.zz`
+  `y.yy`
 
 - **Sample-batch information:**  
   `samplebatch nr`
@@ -30,12 +30,21 @@ use rsync rather than just push -R
 - **Basefolder on NAS3 (<basefolder>):**  
   `<NAS3>/<path-to-directory>`
 
+- **S3 Destination folder:**  
+  `S3/<path-to-directory>`
+
+  - **Date of upload start (YYYY-MM-DD):**  
+  `2026-01-31`
+
+  - **Date of upload find (YYYY-MM-DD):**  
+  `2026-01-31`
+
 ---
 
 ## 1. **TQM Gate — STOP BEFORE UPLOAD**
 
 **The operator must stop here and wait for approval from the TQM team.**  
-Approval must be provided **as a comment to this issue**.
+Approval must be provided **as a comment to this issue**, **email**, or **Teams messages**. A screenshot of the received okay is here available: 
 
 - [ ] 3.1 TQM approval received in comments  
       *(Operator checks this box only after approval comment is present.)*
@@ -45,7 +54,7 @@ Approval must be provided **as a comment to this issue**.
 ## 2. Raw data transfer to BI
 
 - [ ] **1.1** Approval for BI-S3 raw data upload granted by BI  
-- [ ] **1.2** IHC data uploaded to BI S3 bucket  
+- [ ] **1.2** IHC data uploaded to BI S3 bucket  (update destination directory)
       `/<path-to-directory>`
 - [ ] **1.3** BI informed of completed upload  
 

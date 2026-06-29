@@ -55,7 +55,6 @@ Approval must be provided **as a comment to this issue**, **email**, or **Teams 
 
 - [ ] **1.1** Approval for BI-S3 raw data upload granted by BI  
 - [ ] **1.2** IHC data uploaded to BI S3 bucket  (update destination directory)
-      `/<path-to-directory>`
 - [ ] **1.3** BI informed of completed upload  
 
 

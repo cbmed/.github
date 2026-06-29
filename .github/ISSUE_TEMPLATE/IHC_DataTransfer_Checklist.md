@@ -33,11 +33,11 @@ use rsync rather than just push -R
 - **S3 Destination folder:**  
   `S3/<path-to-directory>`
 
-  - **Date of upload start (YYYY-MM-DD):**  
-  `2026-01-31`
+- **Date of upload start (YYYY-MM-DD):**  
+`2026-01-31`
 
-  - **Date of upload find (YYYY-MM-DD):**  
-  `2026-01-31`
+- **Date of upload find (YYYY-MM-DD):**  
+`2026-01-31`
 
 ---
 

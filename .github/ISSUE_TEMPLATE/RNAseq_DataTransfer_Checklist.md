@@ -33,18 +33,17 @@ https://github.com/cbmed/IT_ops_documentation/wiki/Upload-to-AWS-S3-buckets
 
     `NAS3/Genomics/RNAseq_[liquid/solid]/flowcells/<basename>/<flowcell>.sha256`
 
-## 2. Quality Checks
+## 2. Quality Checks of raw data
+
 - [ ] 2.1 Checked folder structure according to BI cloud transfer agreement 
 - [ ] 2.2 Created SampleSheet.csv and check with samshee2 was successful:
       `NAS3/Genomics/RNAseq_[liquid/solid]/flowcells/<basename>/SampleSheet.csv`
-
+      
 - [ ] 2.3 Run-QC according to AP performed: 
     
-     `NAS3/Genomics/RNAseq_[liquid/solid]/flowcells/<basename>/RNAseq_QC_default_thresholds.<timestamp>.xlsx`
-- [ ] 2.4 CBmed lab team and HG informed of outcome
-- [ ] 2.5 Internal QC investigation `completed/not necessary`
-- [ ] 2.6 BI informed about QC outcome
-
+     `NAS3/Genomics/RNAseq_[liquid/solid]/flowcells/<basename>/SAV_RUN_QC_<flowcell>.xlsx`
+- [ ] 2.4 CBmed lab team informed of outcome
+      
 ## 3. **TQM Gate — STOP BEFORE UPLOAD**
 
 **The operator must stop here and wait for approval from the TQM team.**  
@@ -59,12 +58,29 @@ Approval must be provided **as a comment to this issue**.
 
 ## 4. Raw data transfer to BI
 
-- [ ] 3.1 Approval for BI-S3 raw data upload granted by BI
-- [ ] 3.2 Flowcell data uploaded to BI S3 bucket: 
+- [ ] 4.1 Approval for BI-S3 raw data upload & subsequent analysis granted by BI
+- [ ] 4.2 Flowcell data uploaded to BI S3 bucket: 
 
     `s3://bi-tmcp-cbsp-cbmed-validation-ctdna-liquid/data/cbmed_rnaseq_ctdna/`
-- [ ] 3.4 BI informed of completed upload (including QC output in email)
+- [ ] 4.3 BI informed of completed upload & checksum verification
 
-## 5. Comments
+## 5. Analysis on BI Seqera platform
+
+- [ ] 5.1 All necessary pipelines run on BI Seqera platform (demultiplexing, RNA-seq, RNA fusions)
+- [ ] 5.2 Results dowloaded to NAS3: 
+
+    `NAS3/Genomics/RNAseq_[liquid/solid]/nf_core_rnaseq/<basename>/`
+    `NAS3/Genomics/RNAseq_[liquid/solid]/nf_core_rnafusion/<basename>/`
+
+## 6. Final Quality Checks
+      
+- [ ] 6.1 Run-QC according to AP performed: 
+    
+     `NAS3/Genomics/RNAseq_[liquid/solid]/nf_core_rnaseq/<basename>/RNAseq_QC_<timestamp>.xlsx`
+
+- [ ] 6.2 Internal QC investigation `completed/not necessary`
+- [ ] 6.3 BI informed about QC outcome
+
+## 7. Comments
 
 `comments, e.g. 0: measured together with other project on same flow cell; 2.1. Run-QC failed due to xyz`

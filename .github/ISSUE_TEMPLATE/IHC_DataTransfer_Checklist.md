@@ -21,7 +21,7 @@ https://github.com/cbmed/IT_ops_documentation/wiki/Upload-to-AWS-S3-buckets
     * `panel1`
     * `panel2`
 - Sample-Batch information: `samplebatch nr`
-- TSO500 type: `ctDNA/FFPE`
+- Assay type: `IHC/mIF/HE...`
 - Basefolder on NAS3 (<basefolder>):
 
  `<YYYYMMDD>_BI_<CBmedStudyNumber>_b<batchNumber>_r<runNumber>`

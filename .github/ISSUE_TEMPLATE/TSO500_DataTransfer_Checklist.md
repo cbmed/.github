@@ -9,7 +9,7 @@ projects: "cbmed/13"
 ---
 
 If you have been assigned this task, please have a look at these wiki entires to help you complete it:
-[Upload-to-AWS-S3-buckets](https://github.com/cbmed/IT_ops_documentation/wiki/Upload-to-AWS-S3-buckets)
+[WI_DU_TSO500: Raw Data QC and Transfer](https://labordatenbank.com/cbmed/documents/view/505)
 
 
 ## 0. Meta data:
@@ -19,15 +19,14 @@ If you have been assigned this task, please have a look at these wiki entires to
 - Sample-Batch information: `samplebatch nr`
 - Sequencing Run: `sequencingrun nr`
 - TSO500 type: `ctDNA/FFPE`
-- Basefolder on NAS3 (<basefolder>):
-
- `<YYYYMMDD>_BI_<CBmedStudyNumber>_b<batchNumber>_r<runNumber>`
 
 ## 1. Raw data transfer to CBmed
 
-- [ ] 1.1 Sequencing finished at HG on YYYY-MM-DD, reported by:
+- [ ] 1.1 All runs finished sequencing & data transer to NAS3 complete:
 
-    `HG/IoP-employee`
+    Date: `YYYY-MM-DD`
+    Confirmed by: `HG/IoP-employee`
+
 - [ ] 1.2 Flowcell writing to NAS3 finished, location: 
 
     `NAS3/Genomics/TSO500_[liquid/solid]/flowcells/<basename>`
@@ -44,13 +43,14 @@ If you have been assigned this task, please have a look at these wiki entires to
     
     `HG/IoP-employee or CBmed employee`
 
+
 ## 2. Quality Control
 
 - [ ] 2.1 Checked folder structure according to BI cloud transfer agreement 
 - [ ] 2.2 Run-QC & Bioinformatics-QC according to AP performed: 
     
      `NAS3/Genomics/TSO500_[liquid/solid]/dragen/<basename>/TSO500_QC_default_thresholds.<timestamp>.xlsx`
-- [ ] 2.3 CBmed lab team and HG informed of outcome
+- [ ] 2.3 CBmed lab team informed of outcome
 - [ ] 2.4 Internal QC investigation `completed/not necessary`
 - [ ] 2.5 BI informed about QC outcome
 
@@ -74,11 +74,36 @@ Approval must be provided **as a comment to this issue**.
 - [ ] 4.2 Flowcell data uploaded to BI S3 bucket: 
 
     `s3://bi-tmcp-cbsp-cbmed-validation-ctdna-liquid/data/cbmed_tso500_ctdna/`
+
 - [ ] 4.3 DRAGEN uploaded to BI S3 bucket: 
 
     `s3://bi-tmcp-cbsp-cbmed-validation-ctdna-liquid/data/cbmed_tso500_ctdna/`
+
 - [ ] 4.4 BI informed of completed upload
 
-## 5. Comments
+    - Employee: `CBmed employee`
+    - Date: `DD. MM. YYYY`
+    
+---
+
+## 5. Transfer Golden Helix results to BI
+
+Transfer of Golden Helix data requested?
+
+[ ] yes / [ ] no
+
+If yes, please provide:
+
+- [ ] 5.1 Golden-Helix data on NAS3, location: 
+
+    `NAS3/Genomics/TSO500_[liquid/solid]/golden_helix/<basename>`
+
+- [ ] 5.2 Golden-Helix uploaded to BI S3 bucket:
+
+    `NAS3/Genomics/TSO500_[liquid/solid]/golden_helix/<basename>`
+
+---
+
+## 6. Comments
 
 `comments, e.g. 0: measured together with other project on same flow cell; 2.1. Run-QC failed due to xyz`

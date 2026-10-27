@@ -83,14 +83,15 @@ Approval must be provided **as a comment to this issue**.
 
     - Employee: `CBmed employee`
     - Date: `DD. MM. YYYY`
-    
+
 ---
 
 ## 5. Transfer Golden Helix results to BI
 
 Transfer of Golden Helix data requested?
 
-[ ] yes / [ ] no
+- [ ]  yes 
+- [ ]  no
 
 If yes, please provide:
 

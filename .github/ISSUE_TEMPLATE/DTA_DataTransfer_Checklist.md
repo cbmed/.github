@@ -29,6 +29,7 @@ projects: "cbmed/13"
 
 - [ ] 2.1 SDTM preparation pipeline completed successfully in Jenkins
     - Jenkins build: [`<link to Jenkins build>`](http://10.200.230.173/jenkins/job/<pipeline>/<#build>/)
+    - [ ] Jenkins build locked (keep forever)?
     - Build result: `SUCCESS`
      
     If applicable:
